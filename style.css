@@ -1,0 +1,133 @@
+nav{
+  padding-top:20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+nav{
+  box-shadow: 0px 6px 10px 0px #f1f1f1;
+}
+
+#logo{
+  padding-right: 20px;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover{
+  color: #bf1b2a;
+}
+
+.dropdown {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content p{
+  color: red;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  font-weight: 600; 
+  color:black;
+}
+
+.dropdown-content section{
+  width: 300px;
+  margin: 10px 20px;
+  border-bottom: 2px solid #a4a4a5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+}
+
+#search-bar{
+  position: relative;
+  bottom: 0px;
+  padding: 5px;
+  background-color: #d2d2d3;
+  display: inline-block;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+
+#search-bar input{
+  padding: 5px;
+  height: 30px;
+  width: 300px;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  outline: none;
+}
+
+#left-nav{
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#left-nav img{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+ #div3 {
+            border: 2px rgb(255, 255, 55);
+            border-radius: 2px;
+            height: auto;
+            width: 100%;
+            background-color: whitesmoke;
+            float: left;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            color: rgb(155, 255, 255);
+            flex-wrap: wrap;
+        }
+main{
+  margin-top: 40px;
+}
+
+h3{
+  padding: 40px;
+}
+
+#deal-image{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
